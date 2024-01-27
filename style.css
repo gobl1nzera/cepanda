@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Takoyaki';
+    src: url('./assets/fonts/Takoyaki.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Japonesa';
+    src: url('./assets/fonts/Japonesa.ttf') format('truetype'),
+}
+@font-face {
+    font-family: 'Katanf';
+    src: url('./assets/fonts/Katanf.ttf') format('truetype'),
+}
+body {
+    background-color: black;
+    background-image: url('./assets/img/bambooback.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    background: linear-gradient(45deg, #ff0000, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 96px;
+    font-weight: bold;
+    font-family: 'Takoyaki';
+    padding-left: 12px;
+    padding-right: 12px;
+}
+h2 {
+    background: linear-gradient(45deg, #ff0000, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-family: 'Japonesa';
+    margin-top: -60px;
+}
+h3 {
+    font-family: 'Takoyaki';
+    font-size: 32px;
+    opacity: 0.76;
+}
+h4 {
+    font-family: 'Takoyaki';
+    font-size: 42px;
+}
+span {
+    font-size: 28px;
+    font-family: 'Katanf';
+}
+i {
+    color: #ffff;
+}
+img {
+    height: 800px;
+    width: 700px;
+    margin-left: -120px;
+    z-index: -1;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    width: 740px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #231E16;
+    opacity: 0.76;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+input {
+    height: 32px;
+    width: 240px;
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding-right: 28px;
+}
