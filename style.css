@@ -101,7 +101,9 @@ input {
     padding-left: 20px;
     border: none;
     outline: none;
-    font-size: 28px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Katanf';
 }
 #mainContent {
     display: flex;
