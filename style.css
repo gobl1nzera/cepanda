@@ -58,7 +58,7 @@ h4 {
     font-size: 44px;
 }
 span {
-    font-size: 36px;
+    font-size: 35px;
     font-family: 'Katanf';
 }
 i {
@@ -69,6 +69,8 @@ img {
     width: 700px;
     margin-left: -120px;
     z-index: -1;
+    animation: bounceInRight;
+    animation-duration: 1s;
 }
 main {
     display: flex;
@@ -87,6 +89,8 @@ main {
     background-color: #231E16;
     opacity: 0.76;
     border-radius: 20px;
+    animation: fadeInDown;
+    animation-duration: 3.0s;
 }
 form{
     display: flex;
@@ -125,4 +129,6 @@ footer {
     margin-top: -50px;
     font-family: 'Takoyaki';
     opacity: 0.7;
+    animation: fadeInUp;
+    animation-duration: 2s;
 }
