@@ -1,4 +1,7 @@
 @media screen and (max-width: 1200px) {
+    body {
+        height: 100vh;
+    }
     img {
         width: 400px;
         height: 500px;
@@ -12,5 +15,6 @@
         font-size: 80px;
         padding: 0;
     }
+    
     
 }
