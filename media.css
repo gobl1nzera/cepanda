@@ -5,11 +5,14 @@
     }
     .container {
         width: 400px;
-        height: 680px;
+        height: 700px;
         padding: 28px;
     }
     h1 {
         font-size: 80px;
         padding: 0;
+    }
+    input {
+        height: 60px;
     }
 }
